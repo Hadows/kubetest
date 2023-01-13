@@ -1,0 +1,9 @@
+execution:
+  - executor: selenium
+    iterations: 1
+    concurrency: 2
+    scenario: simple
+
+scenarios:
+  simple:
+    script: /src/test/java/com/example/testautomation/TestAutomationApplicationTests.java
